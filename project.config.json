@@ -1,0 +1,137 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"autoAudits": false
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.4.2",
+	"appid": "wxef96d47dcd8ee824",
+	"projectname": "%E8%B5%84%E8%AE%AF%E5%B9%B3%E5%8F%B01",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 14,
+			"list": [
+				{
+					"id": -1,
+					"name": "首页",
+					"pathName": "pages/index/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "资讯",
+					"pathName": "pages/information/information",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "资讯-列表",
+					"pathName": "pages/informationList/informationList",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "资讯-新闻内容",
+					"pathName": "pages/informationDetail/informationDetail",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "企业列表",
+					"pathName": "pages/company/company",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "企业分类",
+					"pathName": "pages/companyLabel/companyLabel",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "企业详情",
+					"pathName": "pages/companyDetail/companyDetail",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "企业二维码",
+					"pathName": "pages/companyCode/companyCode",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "个人中心",
+					"pathName": "pages/user/user",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "申请",
+					"pathName": "pages/apply/apply",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "客服",
+					"pathName": "pages/service/service",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "我的关注",
+					"pathName": "pages/myConcern/myConcern",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "关于我们",
+					"pathName": "pages/about/about",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "address",
+					"pathName": "pages/address/address",
+					"query": ""
+				},
+				{
+					"id": 14,
+					"name": "search",
+					"pathName": "pages/search/search",
+					"query": ""
+				}
+			]
+		}
+	}
+}

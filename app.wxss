@@ -1,0 +1,65 @@
+/**app.wxss**/
+.df{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.f3{
+	flex: 3;
+}
+.f4{
+	flex: 4;
+}
+.f1{
+	flex:1;
+}
+.f2{
+	flex:2;
+}
+.mr30{
+	margin-right: 30rpx;
+}
+.ml30{
+	margin-left: 30rpx;
+}
+.wh100{
+	width: 100%;
+	height: 100%;
+}
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+.eli1{overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;}
+.eli2{overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;}
+.eli3{overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;}
+
+button{
+  position:static;
+  display:block;
+  margin-left:0;
+  margin-right:0;
+  padding-left:0;
+  padding-right:0;
+  -webkit-box-sizing:border-box;
+     -moz-box-sizing:border-box;
+          box-sizing:border-box;
+  font-size:18px;
+  text-align:center;
+  text-decoration:none;
+  line-height:normal;
+  border-radius:0;
+  -webkit-tap-highlight-color:transparent;
+  overflow:hidden;
+  background: none;
+
+}
+button::after{
+  width: 0;
+  height:0;
+}
