@@ -1,0 +1,56 @@
+<wxs src="config.wxs" module="config" />
+<!-- 顶部地址、搜索、扫一扫 -->
+<topItem show="{{address?address:'中山'}}"></topItem>
+
+<!-- 项目 -->
+<view class='tab' style="border:none;">
+	<view wx:for="{{tap}}" class='{{tabId == item.id?"act":""}}' data-sort="default" data-name='' data-id="{{item.id}}" bindtap="tabSort">
+		<text>{{item.name}}</text>
+		<image src="{{tabId ==item.id?'/image/down-s.png':'/image/down.png'}}" class='sort-icon'></image>
+	</view>
+</view>
+<!-- 子项目 -->
+<view wx:if="{{config.tapTwo}}" class='tab' style="padding-top: 0;">
+	<view class='{{tabId2 ==0?"act":""}}' style="padding: 6rpx 0;" data-sort="default" data-name='' data-id="0" bindtap="tabSort2">
+		<text class="fs25">待定项目</text>
+		<image src="{{tabId2 ==0?'/image/down-s.png':'/image/down.png'}}" class='sort-icon'></image>
+	</view>
+	<view class='{{tabId2 ==1?"act":""}}' style="padding: 6rpx 0;" data-sort="news" data-name='editTime.desc' data-id="1" bindtap="tabSort2">
+		<text class="fs25">待定项目</text>
+		<image src="{{tabId2 ==1?'/image/down-s.png':'/image/down.png'}}" class='sort-icon'></image>
+	</view>
+	<view class='{{tabId2 ==2?"act":""}}' style="padding: 6rpx 0;" data-sort="hot" data-name='productSales.desc' data-id="2" bindtap="tabSort2">
+		<text class="fs25">待定项目</text>
+		<image src="{{tabId2 ==2?'/image/down-s.png':'/image/down.png'}}" class='sort-icon'></image>
+	</view>
+	<view class='{{tabId2 ==3?"act":""}} {{priceSort}}' style="padding: 6rpx 0;" data-sort="up" data-id="3" bindtap="tabSort2">
+		<text class="fs25">待定项目</text>
+		<image src="{{tabId2 ==3?'/image/down-s.png':'/image/down.png'}}" class='sort-icon'></image>
+	</view>
+</view>
+<view class="">
+	<!-- 项目列表 -->
+	<view class="company-newBox" style="">
+	    <view wx:for="{{hotCompany}}" class="company-newBox-item" bindtap="companyDetail" style="">
+	      <view class="f1 company-newBox-image" style="">
+	        <image mode="aspectFill" src="{{item.pic}}" class="wh100" style=""></image>
+	      </view>
+	      <view class="f2 ml30 company-new-box" style="">
+	        <view class="eli1 company-new-title letter-spacing2" style="">{{item.title}}</view>
+
+	        <view class="company-new-time" style="margin: 10rpx 0;">
+            <view wx:for="{{item.label}}" wx:for-item="itemLabel" class="eli1 company-new-label" style="color: {{itemLabel.color}};border:0.5rpx solid {{itemLabel.color}};">
+              <span class="eli1" style="">{{itemLabel.name}}</span>
+            </view>
+          </view>
+
+	       	<view class="company-new-time2" style="">
+            <view class="eli1 company-new-timeItem1" style=""><span class="eli1" style="">{{item.city}}</span></view>
+            <view class="eli1 company-new-timeItem1" style=""><span class="eli1" style="">{{item.town}}</span></view>
+            <view style="" class="company-new-timeItem">距您{{item.distance}}KM</view>
+          </view>
+	      </view>
+	    </view>
+	</view>
+	<view class="indexBottom2" style=""></view>
+</view>

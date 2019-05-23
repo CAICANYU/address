@@ -1,0 +1,35 @@
+<view class="about-header">
+	<view class="">
+		<image class="wh100" mode="aspectFit" src="/image/p2.png"></image>
+	</view>
+	<view class="">广东共享纸巾网络科技有限公司</view>
+</view>
+
+<!-- 分割线 -->
+<view class="pageLine"></view>
+
+<!-- 公司简介 -->
+<view class="">
+	<!-- 操作栏目 -->
+	<view class="item-nav">
+		<view class="item-nav-line"></view>
+		<view class="item-nav-text">公司简介</view>
+	</view>
+	<view class="companyDetail_breif">ZHO共享纸巾作为全国首个纸巾免费领取智能设备，由广东共享纸巾网络科技有限公司管理与运营，以人们生活中的刚需为切入点，通过“扫一扫，免费领取”的形式，打造随时随地可以方便领取纸巾使用的大环境，简单便捷地解决人们的用纸问题。减免餐饮商户纸巾购买的成本支出，最终实现资源共享。目前ZHO共享纸巾机已覆盖300多个城市，投放纸巾机近20万多台，每天服务市民即将突破500万人次，投放地包含花园小区、市场、医院、商圈、酒店、旅游景区、办公写字楼、大学校园等等，为市民提供纸巾免费使 用的共享服务，构建共享经济下的一种新型纸巾消费模式。</view>
+</view>
+
+<!-- 地址模块 -->
+<view class="address">
+	<view class="address-area">
+		<view class="address-area-icon">
+			<image class="wh100" mode="aspectFit" src="/image/address.png"></image>
+		</view>
+		<view class="address-area-pro">广东省</view>
+		<view class="address-area-city">中山市</view>
+		<view class="address-area-town">石岐区</view>
+	</view>
+	<view class="address-detail eli1">中山市博爱三路T.O.P时尚商务园4幢501卡</view>
+	<view class="address-map">
+		<map id="map" longitude="{{longitude}}" latitude="{{latitude}}" scale="14" controls="{{controls}}" bindcontroltap="controltap" markers="{{markers}}" bindmarkertap="markertap" polyline="{{polyline}}" bindregionchange="regionchange" show-location style="" class="wh100"></map>
+	</view>
+</view>

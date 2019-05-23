@@ -1,0 +1,3 @@
+module.exports = {
+  tapTwo:true ,// 是否存在搜索按钮
+};

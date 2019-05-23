@@ -1,0 +1,103 @@
+<view class="center-item" style="">
+	<view class='df header'>
+	  <view class="msg1"><image src='{{image}}' class="wh100" mode='aspectFit'></image></view>
+	  <view class="jf_num" bindtap="chooseImage">修改头像</view>
+	  <view class='mr4' bindtap="chooseImage">
+	  	<view class="wh40" style="">
+				<image style="" class="wh100" mode="aspectFill" src="/image/center_list_arrow.png"></image>
+			</view>
+	  </view>
+	</view>
+
+	<!-- 手机 -->
+	<button bindtap="tel" data-tel="18888888888" open-type="getUserInfo" hover-class="none" class="button-item" style="">
+		<view class="phone-item" style="">
+			<view class="wh50" style="">
+				<image class="wh100" mode="aspectFillt" src="/image/phone.png"></image>
+			</view>
+			<view class="center_list_text">手机</view>
+			<view class="jf_num" style="margin-right:1%;">
+				<input style="width: 100%;height: 100%;border:none;" type="text" placeholder="请输入手机" placeholder-style='color:#999' bindfocus="focus" bindblur="blur" bindinput="onInput"
+          ></input>
+			</view>
+			<view class="wh40" style="display: none;">
+				<image style="" class="wh100" mode="aspectFill" src="/image/center_list_arrow.png"></image>
+			</view>
+		</view>
+	</button>
+
+	<!-- 座机 -->
+	<button bindtap="tel" data-tel="18888888888" open-type="getUserInfo" hover-class="none" class="button-item" style="">
+		<view class="phone-item" style="">
+			<view class="wh50" style="">
+				<image class="wh100" mode="aspectFillt" src="/image/tel.png"></image>
+			</view>
+			<view class="center_list_text">座机</view>
+			<view class="jf_num" style="margin-right:1%;">
+				<input style="width: 100%;height: 100%;border:none;" type="text" placeholder="请输入座机" placeholder-style='color:#999' bindfocus="focus" bindblur="blur" bindinput="onInput"
+          ></input>
+			</view>
+			<view class="wh40" style="display: none;">
+				<image style="" class="wh100" mode="aspectFill" src="/image/center_list_arrow.png"></image>
+			</view>
+		</view>
+	</button>
+
+	<!-- 邮箱 -->
+	<button bindtap="email" data-email="ewroin@erer.com" open-type="getUserInfo" hover-class="none" class="button-item" style="border: none;">
+		<view class="phone-item" style="">
+			<view class="wh50" style="">
+				<image class="wh100" mode="aspectFillt" src="/image/email.png"></image>
+			</view>
+			<view class="center_list_text">邮箱</view>
+			<view class="jf_num" style="margin-right:1%;">
+				<input style="width: 100%;height: 100%;border:none;" type="text" placeholder="请输入邮箱" placeholder-style='color:#999' bindfocus="focus" bindblur="blur" bindinput="onInput"
+          ></input>
+			</view>
+			<view class="wh40" style="display: none;">
+				<image style="" class="wh100" mode="aspectFill" src="/image/center_list_arrow.png"></image>
+			</view>
+		</view>
+	</button>
+
+	<!-- 分割线 -->
+	<view class="userLine"></view>
+
+	<!-- 企业名称 open-type="contact" -->
+	<button hover-class="none" class="button-item" style="">
+		<view class="phone-item" style="">
+			<view class="wh50" style="">
+				<image class="wh100" mode="aspectFillt" src="/image/mycompany.png"></image>
+			</view>
+			<view class="center_list_text">企业名称</view>
+			<view class="jf_num" style="margin-right:1%;">
+				<input style="width: 100%;height: 100%;border:none;" type="text" placeholder="请输入企业名称" placeholder-style='color:#999' bindfocus="focus" bindblur="blur" bindinput="onInput"
+          ></input>
+			</view>
+			<view class="wh40" style="display: none;">
+				<image style="" class="wh100" mode="aspectFill" src="/image/center_list_arrow.png"></image>
+			</view>
+		</view>
+	</button>
+
+	<!-- 企业简介 -->
+	<button open-type="getUserInfo" hover-class="none" class="button-item" style="border: none;">
+		<view class="phone-item" style="">
+			<view class="wh50" style="">
+				<image class="wh100" mode="aspectFillt" src="/image/about1.png"></image>
+			</view>
+			<view class="center_list_text">企业简介</view>
+			<view class="jf_num dr">
+				<!-- <view style="" class="num">5</view> -->
+			</view>
+			<view class="wh40" style="">
+				<!-- <image style="transform: rotate(90deg);" class="wh100" mode="aspectFill" src="/image/center_list_arrow.png"></image> -->
+			</view>
+		</view>
+	</button>
+	<view class="section">
+	  <textarea bindblur="bindTextAreaBlur" auto-height placeholder="请输入企业简介" />
+	</view>
+</view>
+
+<view class="formBtn" style="">提交申请</view>	
