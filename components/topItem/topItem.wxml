@@ -1,0 +1,16 @@
+<!-- 顶部地址、搜索、扫一扫 -->
+<view class="top" style="">
+  <view bindtap="address" class="f1 df top-address">
+    <view class=""><span class="eli1">{{address}}</span></view>
+    <image style="" class="" mode="aspectFit" src="/image/right1.png"></image>
+  </view>
+  <view bindtap="search" class="f4 df top-input" style="">
+    <icon type="search" size="15" color="#fff" />
+    <!-- <image class="" mode="aspectFit" src="/image/search-icon.png"></image> -->
+    <input disabled="true" style='' placeholder-style="color:white;font-size:28rpx;" placeholder="搜索企业/产品/服务/公众号" bindconfirm="searchProduct" confirm-type="search"/>
+  </view>
+  <view class="f1 df top-code" bindtap="scanCode">
+    <image class="" mode="aspectFit" src="/image/code.jpg"></image>
+    <view class="paperTowel" style="">领纸巾</view>
+  </view>
+</view>

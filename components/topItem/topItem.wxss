@@ -1,0 +1,126 @@
+
+
+.df{
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+     -moz-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.f3{
+  -webkit-box-flex: 3;
+     -moz-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+}
+.f4{
+  -webkit-box-flex: 4;
+     -moz-box-flex: 4;
+      -ms-flex: 4;
+          flex: 4;
+}
+.f1{
+  -webkit-box-flex:1;
+     -moz-box-flex:1;
+      -ms-flex:1;
+          flex:1;
+}
+.f2{
+  -webkit-box-flex:2;
+     -moz-box-flex:2;
+      -ms-flex:2;
+          flex:2;
+}
+.mr30{
+  margin-left: 30rpx;
+}
+.wh100{
+  width: 100%;
+  height: 100%;
+}
+/*顶部*/
+.top{
+  width: 100%;
+  height: 120rpx;
+  background: #3e67d9;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.top-address{
+  font-size: 28rpx;
+  color: white;
+  -webkit-box-flex:1;
+     -moz-box-flex:1;
+      -ms-flex:1;
+          flex:1;
+  margin: 0 10rpx;
+}
+.top-address image{
+  width: 30rpx;
+  height: 30rpx;
+  margin-left: 5rpx;
+}
+
+.top-input{
+  font-size: 30rpx;
+  color: white;
+  background: #6685e0;
+  border-radius: 40rpx;
+  height: 70rpx;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+
+}
+.top-input image{
+  width: 40rpx;
+  height: 40rpx;
+  margin-left: 30rpx;
+}
+.top-input input{
+  font-size: 30rpx;
+  /*margin: 3%;*/
+  width: 85%;
+  height: 80%;
+  margin-left: 15rpx;
+}
+.top-code{
+  -webkit-box-flex:0.8;
+     -moz-box-flex:0.8;
+      -ms-flex:0.8;
+          flex:0.8;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+     -moz-box-orient: vertical;
+     -moz-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;        
+}
+.top-code image{
+  width: 60rpx;
+  height: 50rpx;
+}
+.paperTowel{
+  font-size: 20rpx;
+  color: white;
+  opacity: 0.8;
+  letter-spacing: 1rpx;
+}
