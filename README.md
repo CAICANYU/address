@@ -1,5 +1,6 @@
 # 资讯平台小程序
-
+需要源码的直接下载那个压缩包吧...
+好懒....
 # 声明
 "pages/index/index",//首页
 "pages/information/information",//资讯-分类
